@@ -27,9 +27,9 @@
               <% if(review.doc.sentiment === 'positive') {%>
                 <article class="tile is-child box notification is-primary">
               <% } else if(review.doc.sentiment === 'negative') {%>
-                <article class="tile is-child box notification is-warning" style="backgroud-color: red">
+                <article class="tile is-child box notification is-warning" style="backgroud-color: red; color: blue">
               <% } else { %>
-                <article class="tile is-child box">
+                <article class="tile is-child box" style="backgroud-color: red; color: green">
               <% } %>
               <p class="title"><%= review.doc.movie %></p>
               <p class="subtitle">
